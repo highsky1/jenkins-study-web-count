@@ -1,7 +1,6 @@
-version: '3.8'
 services:
   webserver:
-    build: .
+    image: highsky1/web_count:1.0
     ports:
      - "8899:8899"
     depends_on:
