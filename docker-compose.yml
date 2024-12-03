@@ -1,6 +1,6 @@
 services:
   webserver:
-    image: highsky1/web_count:1.0
+    image: highsky1/web_count:v1.0
     ports:
      - "8899:8899"
     depends_on:
